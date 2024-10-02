@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Th3Form</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js"></script>
-    <link href="assets/iceh/css/mobiscroll.javascript.min.css" rel="stylesheet" />
-    <script src="assets/iceh/js/mobiscroll.javascript.min.js"></script>
+    <script src="https://prkr9.github.io/sshl/assets/js/script.js"></script>
+    <link href="https://prkr9.github.io/sshl/assets/iceh/css/mobiscroll.javascript.min.css" rel="stylesheet" />
+    <script src="https://prkr9.github.io/sshl/assets/iceh/js/mobiscroll.javascript.min.js"></script>
 </head>
 
 <body>
     <h1>Th3Form</h1>
     <h3>Welcome to the form! You have guessed the password correctly and now you can sign up for the Wii Sports Boxing
         Tournament. Select one of the options below.</h3>
-    <a href="/form.html" style="color: aliceblue;">Head back</a>
     <br>
     <input type="text" name="name" id="name" placeholder="Enter your name">
     <button id="sub" class="submit" onclick="submitPee()">Submit Option!</button>
     <hockey>
         <div id="ihChar">
-            <img src="assets/iceh/img/jersey.png" class="jersey">
-            <img src="assets/iceh/img/outline.png" class="outline">
-            <img src="assets/iceh/img/skin.png" class="skin">
+            <img src="https://prkr9.github.io/sshl/assets/iceh/img/jersey.png" class="jersey">
+            <img src="https://prkr9.github.io/sshl/assets/iceh/img/outline.png" class="outline">
+            <img src="https://prkr9.github.io/sshl/assets/iceh/img/skin.png" class="skin">
         </div>
         <div>
             <h3>Color Index:</h3>
@@ -72,9 +71,9 @@
         function changeColor() {
             let ihChar = document.getElementById('ihChar');
             ihChar.innerHTML =
-                '<img src="assets/iceh/img/jersey-' + selJ.value + '.png" class="cc jersey"> ' +
-                '<img src="assets/iceh/img/outline-' + selO.value + '.png" class="outline"> ' +
-                '<img src="assets/iceh/img/skin-' + selS.value + '.png" class="skin">'
+                '<img src="https://prkr9.github.io/sshl/assets/iceh/img/jersey-' + selJ.value + '.png" class="cc jersey"> ' +
+                '<img src="https://prkr9.github.io/sshl/assets/iceh/img/outline-' + selO.value + '.png" class="outline"> ' +
+                '<img src="https://prkr9.github.io/sshl/assets/iceh/img/skin-' + selS.value + '.png" class="skin">'
         }
 
         mobiscroll.setOptions({
@@ -98,7 +97,7 @@
             },
         });
 
-        mobiscroll.getJson('assets/iceh/c.json', function (resp) {
+        mobiscroll.getJson('https://prkr9.github.io/sshl/assets/iceh/c.json', function (resp) {
             var countries = [];
             for (var i = 0; i < resp.length; ++i) {
                 var country = resp[i];
