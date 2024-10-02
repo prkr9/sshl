@@ -1,0 +1,577 @@
+[
+    {
+        "value": "AL",
+        "group": "A",
+        "text": "Albania"
+    },
+    {
+        "value": "AD",
+        "group": "A",
+        "text": "Andorra"
+    },
+    {
+        "value": "AO",
+        "group": "A",
+        "text": "Angola"
+    },
+    {
+        "value": "AR",
+        "group": "A",
+        "text": "Argentina"
+    },
+    {
+        "value": "AW",
+        "group": "A",
+        "text": "Aruba"
+    },
+    {
+        "value": "AU",
+        "group": "A",
+        "text": "Australia"
+    },
+    {
+        "value": "AT",
+        "group": "A",
+        "text": "Austria"
+    },
+    {
+        "value": "BH",
+        "group": "B",
+        "text": "Bahrain"
+    },
+    {
+        "value": "BE",
+        "group": "B",
+        "text": "Belgium"
+    },
+    {
+        "value": "BZ",
+        "group": "B",
+        "text": "Belize"
+    },
+    {
+        "value": "BA",
+        "group": "B",
+        "text": "Bosnia And Herzegovina"
+    },
+    {
+        "value": "BW",
+        "group": "B",
+        "text": "Botswana"
+    },
+    {
+        "value": "IO",
+        "group": "B",
+        "text": "British Indian Ocean Territory"
+    },
+    {
+        "value": "BN",
+        "group": "B",
+        "text": "Brunei Darussalam"
+    },
+    {
+        "value": "KH",
+        "group": "C",
+        "text": "Cambodia"
+    },
+    {
+        "value": "CV",
+        "group": "C",
+        "text": "Cape Verde"
+    },
+    {
+        "value": "TD",
+        "group": "C",
+        "text": "Chad"
+    },
+    {
+        "value": "CL",
+        "group": "C",
+        "text": "Chile"
+    },
+    {
+        "value": "CN",
+        "group": "C",
+        "text": "China"
+    },
+    {
+        "value": "CO",
+        "group": "C",
+        "text": "Colombia"
+    },
+    {
+        "value": "CD",
+        "group": "C",
+        "text": "Congo, Democratic Republic"
+    },
+    {
+        "value": "CK",
+        "group": "C",
+        "text": "Cook Islands"
+    },
+    {
+        "value": "CR",
+        "group": "C",
+        "text": "Costa Rica"
+    },
+    {
+        "value": "HR",
+        "group": "C",
+        "text": "Croatia"
+    },
+    {
+        "value": "CU",
+        "group": "C",
+        "text": "Cuba"
+    },
+    {
+        "value": "CY",
+        "group": "C",
+        "text": "Cyprus"
+    },
+    {
+        "value": "CZ",
+        "group": "C",
+        "text": "Czech Republic"
+    },
+    {
+        "value": "DK",
+        "group": "D",
+        "text": "Denmark"
+    },
+    {
+        "value": "EC",
+        "group": "E",
+        "text": "Ecuador"
+    },
+    {
+        "value": "EG",
+        "group": "E",
+        "text": "Egypt"
+    },
+    {
+        "value": "SV",
+        "group": "E",
+        "text": "El Salvador"
+    },
+    {
+        "value": "EE",
+        "group": "E",
+        "text": "Estonia"
+    },
+    {
+        "value": "FK",
+        "group": "F",
+        "text": "Falkland Islands (Malvinas)"
+    },
+    {
+        "value": "FO",
+        "group": "F",
+        "text": "Faroe Islands"
+    },
+    {
+        "value": "FJ",
+        "group": "F",
+        "text": "Fiji"
+    },
+    {
+        "value": "FI",
+        "group": "F",
+        "text": "Finland"
+    },
+    {
+        "value": "FR",
+        "group": "F",
+        "text": "France"
+    },
+    {
+        "value": "PF",
+        "group": "F",
+        "text": "French Polynesia"
+    },
+    {
+        "value": "GE",
+        "group": "G",
+        "text": "Georgia"
+    },
+    {
+        "value": "DE",
+        "group": "G",
+        "text": "Germany"
+    },
+    {
+        "value": "GI",
+        "group": "G",
+        "text": "Gibraltar"
+    },
+    {
+        "value": "GR",
+        "group": "G",
+        "text": "Greece"
+    },
+    {
+        "value": "GL",
+        "group": "G",
+        "text": "Greenland"
+    },
+    {
+        "value": "GT",
+        "group": "G",
+        "text": "Guatemala"
+    },
+    {
+        "value": "HT",
+        "group": "H",
+        "text": "Haiti"
+    },
+    {
+        "value": "HN",
+        "group": "H",
+        "text": "Honduras"
+    },
+    {
+        "value": "HK",
+        "group": "H",
+        "text": "Hong Kong"
+    },
+    {
+        "value": "IS",
+        "group": "I",
+        "text": "Iceland"
+    },
+    {
+        "value": "ID",
+        "group": "I",
+        "text": "Indonesia"
+    },
+    {
+        "value": "IQ",
+        "group": "I",
+        "text": "Iraq"
+    },
+    {
+        "value": "IL",
+        "group": "I",
+        "text": "Israel"
+    },
+    {
+        "value": "JP",
+        "group": "J",
+        "text": "Japan"
+    },
+    {
+        "value": "KP",
+        "group": "K",
+        "text": "KP"
+    },
+    {
+        "value": "KI",
+        "group": "K",
+        "text": "Kiribati"
+    },
+    {
+        "value": "KR",
+        "group": "K",
+        "text": "Korea"
+    },
+    {
+        "value": "KG",
+        "group": "K",
+        "text": "Kyrgyzstan"
+    },
+    {
+        "value": "LA",
+        "group": "L",
+        "text": "Lao People's Democratic Republic"
+    },
+    {
+        "value": "LV",
+        "group": "L",
+        "text": "Latvia"
+    },
+    {
+        "value": "LR",
+        "group": "L",
+        "text": "Liberia"
+    },
+    {
+        "value": "LI",
+        "group": "L",
+        "text": "Liechtenstein"
+    },
+    {
+        "value": "LU",
+        "group": "L",
+        "text": "Luxembourg"
+    },
+    {
+        "value": "MK",
+        "group": "M",
+        "text": "Macedonia"
+    },
+    {
+        "value": "MY",
+        "group": "M",
+        "text": "Malaysia"
+    },
+    {
+        "value": "MT",
+        "group": "M",
+        "text": "Malta"
+    },
+    {
+        "value": "MH",
+        "group": "M",
+        "text": "Marshall Islands"
+    },
+    {
+        "value": "FM",
+        "group": "M",
+        "text": "Micronesia, Federated States Of"
+    },
+    {
+        "value": "MD",
+        "group": "M",
+        "text": "Moldova"
+    },
+    {
+        "value": "MC",
+        "group": "M",
+        "text": "Monaco"
+    },
+    {
+        "value": "MN",
+        "group": "M",
+        "text": "Mongolia"
+    },
+    {
+        "value": "ME",
+        "group": "M",
+        "text": "Montenegro"
+    },
+    {
+        "value": "MA",
+        "group": "M",
+        "text": "Morocco"
+    },
+    {
+        "value": "NL",
+        "group": "N",
+        "text": "Netherlands"
+    },
+    {
+        "value": "NC",
+        "group": "N",
+        "text": "New Caledonia"
+    },
+    {
+        "value": "NZ",
+        "group": "N",
+        "text": "New Zealand"
+    },
+    {
+        "value": "NI",
+        "group": "N",
+        "text": "Nicaragua"
+    },
+    {
+        "value": "NO",
+        "group": "N",
+        "text": "Norway"
+    },
+    {
+        "value": "PA",
+        "group": "P",
+        "text": "Panama"
+    },
+    {
+        "value": "PG",
+        "group": "P",
+        "text": "Papua New Guinea"
+    },
+    {
+        "value": "PY",
+        "group": "P",
+        "text": "Paraguay"
+    },
+    {
+        "value": "PE",
+        "group": "P",
+        "text": "Peru"
+    },
+    {
+        "value": "PH",
+        "group": "P",
+        "text": "Philippines"
+    },
+    {
+        "value": "PL",
+        "group": "P",
+        "text": "Poland"
+    },
+    {
+        "value": "PT",
+        "group": "P",
+        "text": "Portugal"
+    },
+    {
+        "value": "QA",
+        "group": "A",
+        "text": "Qatar"
+    },
+    {
+        "value": "RO",
+        "group": "R",
+        "text": "Romania"
+    },
+    {
+        "value": "RU",
+        "group": "R",
+        "text": "Russian Federation"
+    },
+    {
+        "value": "WS",
+        "group": "S",
+        "text": "Samoa"
+    },
+    {
+        "value": "SM",
+        "group": "S",
+        "text": "San Marino"
+    },
+    {
+        "value": "RS",
+        "group": "S",
+        "text": "Serbia"
+    },
+    {
+        "value": "SG",
+        "group": "S",
+        "text": "Singapore"
+    },
+    {
+        "value": "SK",
+        "group": "S",
+        "text": "Slovakia"
+    },
+    {
+        "value": "SI",
+        "group": "S",
+        "text": "Slovenia"
+    },
+    {
+        "value": "SO",
+        "group": "S",
+        "text": "Somalia"
+    },
+    {
+        "value": "ES",
+        "group": "S",
+        "text": "Spain"
+    },
+    {
+        "value": "SZ",
+        "group": "S",
+        "text": "Swaziland"
+    },
+    {
+        "value": "SE",
+        "group": "S",
+        "text": "Sweden"
+    },
+    {
+        "value": "CH",
+        "group": "S",
+        "text": "Switzerland"
+    },
+    {
+        "value": "SY",
+        "group": "S",
+        "text": "Syrian Arab Republic"
+    },
+    {
+        "value": "TW",
+        "group": "T",
+        "text": "Taiwan"
+    },
+    {
+        "value": "TH",
+        "group": "T",
+        "text": "Thailand"
+    },
+    {
+        "value": "TL",
+        "group": "T",
+        "text": "Timor-Leste"
+    },
+    {
+        "value": "TK",
+        "group": "T",
+        "text": "Tokelau"
+    },
+    {
+        "value": "TO",
+        "group": "T",
+        "text": "Tonga"
+    },
+    {
+        "value": "TN",
+        "group": "T",
+        "text": "Tunisia"
+    },
+    {
+        "value": "TR",
+        "group": "T",
+        "text": "Turkey"
+    },
+    {
+        "value": "TV",
+        "group": "T",
+        "text": "Tuvalu"
+    },
+    {
+        "value": "UG",
+        "group": "U",
+        "text": "Uganda"
+    },
+    {
+        "value": "UA",
+        "group": "U",
+        "text": "Ukraine"
+    },
+    {
+        "value": "GB",
+        "group": "U",
+        "text": "United Kingdom"
+    },
+    {
+        "value": "US",
+        "group": "U",
+        "text": "United States"
+    },
+    {
+        "value": "UY",
+        "group": "U",
+        "text": "Uruguay"
+    },
+    {
+        "value": "VE",
+        "group": "V",
+        "text": "Venezuela"
+    },
+    {
+        "value": "VN",
+        "group": "V",
+        "text": "Viet Nam"
+    },
+    {
+        "value": "WF",
+        "group": "W",
+        "text": "Wallis And Futuna"
+    },
+    {
+        "value": "YE",
+        "group": "Y",
+        "text": "Yemen"
+    }
+]

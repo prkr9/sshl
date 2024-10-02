@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Th3Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+    <link href="assets/iceh/css/mobiscroll.javascript.min.css" rel="stylesheet" />
+    <script src="assets/iceh/js/mobiscroll.javascript.min.js"></script>
+</head>
+
+<body>
+    <h1>Th3Form</h1>
+    <h3>Welcome to the form! You have guessed the password correctly and now you can sign up for the Wii Sports Boxing
+        Tournament. Select one of the options below.</h3>
+    <a href="/form.html" style="color: aliceblue;">Head back</a>
+    <br>
+    <input type="text" name="name" id="name" placeholder="Enter your name">
+    <button id="sub" class="submit" onclick="submitPee()">Submit Option!</button>
+    <hockey>
+        <div id="ihChar">
+            <img src="assets/iceh/img/jersey.png" class="jersey">
+            <img src="assets/iceh/img/outline.png" class="outline">
+            <img src="assets/iceh/img/skin.png" class="skin">
+        </div>
+        <div>
+            <h3>Color Index:</h3>
+            <img src="https://nesdoug.com/wp-content/uploads/2015/11/nes-color-palette2.png">
+            <br>
+            <label>Jersey Color: </label><select id="selJ" onchange="changeColor()"></select>
+            <br>
+            <label>Outline Color: </label><select id="selO" onchange="changeColor()"></select>
+            <br>
+            <label>Skin Color: </label><select id="selS" onchange="changeColor()"></select>
+            <br>
+            <label>
+                Countries
+                <input mbsc-input id="demo-country-picker" data-dropdown="true" data-input-style="box"
+                    data-label-style="stacked" placeholder="Please select..." onchange="poop()" />
+            </label>
+            <img id="cimg">
+        </div>
+    </hockey>
+    <script>
+        let colors = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "0A", "0B", "0C", "0D", "0E", "0F", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "1A", "1B", "1C", "1D", "1E", "1F", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "2A", "2B", "2C", "2D", "2E", "2F", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "3A", "3B", "3C", "3D", "3E", "3F"]
+        let selJ = document.getElementById("selJ");
+        let selO = document.getElementById("selO");
+        let selS = document.getElementById("selS");
+        for (let i = 0; i < colors.length; i++) {
+            let opt = document.createElement("option");
+            opt.value = colors[i];
+            opt.innerHTML = colors[i];
+            selJ.appendChild(opt);
+        }
+
+        for (let i = 0; i < colors.length; i++) {
+            let opt = document.createElement("option");
+            opt.value = colors[i];
+            opt.innerHTML = colors[i];
+            selO.appendChild(opt);
+        }
+
+        for (let i = 0; i < colors.length; i++) {
+            let opt = document.createElement("option");
+            opt.value = colors[i];
+            opt.innerHTML = colors[i];
+            selS.appendChild(opt);
+        }
+
+        function changeColor() {
+            let ihChar = document.getElementById('ihChar');
+            ihChar.innerHTML =
+                '<img src="assets/iceh/img/jersey-' + selJ.value + '.png" class="cc jersey"> ' +
+                '<img src="assets/iceh/img/outline-' + selO.value + '.png" class="outline"> ' +
+                '<img src="assets/iceh/img/skin-' + selS.value + '.png" class="skin">'
+        }
+
+        mobiscroll.setOptions({
+            theme: 'windows',
+            themeVariant: 'dark'
+        });
+
+        var inst = mobiscroll.select('#demo-country-picker', {
+            display: 'anchored',
+            filter: true,
+            itemHeight: 40,
+            renderItem: function (item) {
+                return (
+                    '<div class="md-country-picker-item">' +
+                    '<img class="md-country-picker-flag" src="https://img.mobiscroll.com/demos/flags/' +
+                    item.data.value +
+                    '.png" />' +
+                    item.display +
+                    '</div>'
+                );
+            },
+        });
+
+        mobiscroll.getJson('assets/iceh/c.json', function (resp) {
+            var countries = [];
+            for (var i = 0; i < resp.length; ++i) {
+                var country = resp[i];
+                countries.push({ text: country.text, value: country.value });
+            }
+            inst.setOptions({ data: countries });
+        });
+        
+        function submitPee() {
+            window.open("https://docs.google.com/forms/d/e/1FAIpQLSd8CUYACEWwHRyfs9LEdem8nPzD-kuVrQJll4igbPInNCUo7Q/formResponse?&submit=Submit?usp=pp_url&entry.805438397=" + document.getElementById("name").value + "&entry.1287032363=" + selJ.value + selO.value + selS.value + "&entry.1265615861=" + document.getElementById("demo-country-picker").value)
+        }
+
+    </script>
+</body>
+
+</html>
