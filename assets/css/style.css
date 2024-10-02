@@ -1,0 +1,130 @@
+body {
+    background-color: darkslateblue;
+    color: azure;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+miis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 15px;
+}
+
+miis button {
+    background-color: darkslateblue;
+    color: azure;
+    border: azure 1px solid;
+    font-size: large;
+    transition: all 0.2s;
+}
+
+miis button:hover {
+    background-color: indigo;
+    border: azure 3px solid;
+}
+
+miis button:disabled {
+    background-color: red;
+    border: azure 1px solid;
+
+}
+
+miis img {
+    width: 100%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choices button {
+    border: white 2px solid;
+    background-color: transparent;
+    color: white;
+    width: 350px;
+    height: 500px;
+    transition: all 0.3s;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 1em;
+}
+
+.choices button:hover {
+    width: 350px;
+    transform: skew(3deg);
+    border-radius: 1em;
+}
+
+.choices button:disabled {
+    border: 2px red solid;
+}
+
+.password {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 98vh;
+    margin: 0;
+    padding: 0;
+}
+
+#pwd {
+    background-color: darkslateblue;
+    color: white;
+    border: azure 1px solid;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.password button {
+    background-color: darkslateblue;
+    color: white;
+    border: azure 1px solid;
+    padding: 0.5em;
+    transition: 0.5s;
+}
+
+.password button:hover {
+    background-color: white;
+    color: darkslateblue;
+    border: azure 1px solid;
+    padding: 0.5em;
+}
+
+.jersey {
+    position: absolute;
+    width: 250px;
+    z-index: 1;
+}
+
+.outline {
+    position: absolute;
+    width: 250px;
+    z-index: 3;
+}
+
+.skin {
+    position: absolute;
+    width: 250px;
+    z-index: 5;
+}
+
+hockey {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
