@@ -31,39 +31,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>emulator</title>
-    <style>
-        body,
-        html {
-            height: 100%;
-            margin: 0;
-            background-color: var(--text);
-        }
-
-        #game {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
-</head>
-
-<body>
-    <div style="width: 100%; height: 100%; text-align:center">
-        <div id="game"></div>
-    </div>
-    <script src="js/loader.js" defer></script>
-    <script>
-        var style = getComputedStyle(document.body)
-        console.log(style.getPropertyValue('--text')) // #336699
-
-        const params = new URLSearchParams(window.location.search);
-        let EJS_player = "#game";
-        let EJS_core = "nes";
-        let EJS_gameID = "3";
-        let EJS_gameUrl = "https://prkr9.github.io/sshl/assets/iceh/SSHL.zip";
-        let EJS_biosUrl;
-        let EJS_pathtodata = "data/";
-        let EJS_oldCores = true;
-    </script>
-</body>
-
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width:100%;height:100%;max-width:100%">
+            <div id="game"></div>
+        </div>
+        <script>
+            EJS_player = "#game";
+            EJS_core = "nes";
+            EJS_gameName = "SSHL";
+            EJS_color = "#ffea00";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+            EJS_gameUrl = "SSHL.zip";
+        </script>
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+    </body>
 </html>
